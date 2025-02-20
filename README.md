@@ -2,14 +2,14 @@
 
 ## Overview
 
-This project fetches the latest news articles about Tesla(or any other topic) using the NewsAPI and sends them via email to a specified recipient. The project consists of two Python scripts:
+This project fetches the latest news articles about Tesla (or any other topic) using the NewsAPI and sends them via email to a specified recipient. The project consists of two Python scripts:
 
 1. **`main.py`** - Fetches news articles and sends them via email.
 2. **`sendmail.py`** - Handles sending emails securely using Gmail's SMTP server.
 
 ## Features
 
-- Fetches the latest news articles on Tesla(Topic can be made dynamic.
+- Fetches the latest news articles on Tesla(Topic can be made dynamic).
 - Formats and sends the top 10 articles via email.
 - Uses environment variables to securely store API keys and email credentials.
 
