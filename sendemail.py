@@ -1,12 +1,13 @@
 import smtplib, ssl
-
+import os
 # SMTP Server Details
 host = "smtp.gmail.com"
 port = 465
 
-user = "mayank.kapoor2607@gmail.com"
+user = "pythonsendsmail8@gmail.com"
  #take user input
-pa = "jwot zgaz ewxq vvhf"
+pa = os.getenv("PYTHONEMAILPASS")
+
 # Create SSL Context
 context = ssl.create_default_context()
 
